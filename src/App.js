@@ -33,12 +33,12 @@ function App() {
     <div className="Container">
       <header className="header">
         <div className="AppName">
-          <img className="MovieImage" src="public/movie-icon.svg" alt="" />
+          <img className="MovieImage" src="../public/movie-icon.svg" alt="" />
           React Movie App
         </div>
         <div className="SearchBox">
         {/* style={{width: '32px', height: '32px'}} */}
-          <img src="../public/images/search-icon.svg" alt="search" style={{width: '32px', height: '32px'}} />
+          <img src="../public/search-icon.svg" alt="search" style={{width: '32px', height: '32px'}} />
           <input className="SearchInput"
             placeholder="Search Movie"
             value={searchQuery}
